@@ -1,0 +1,133 @@
+body {
+    width: 1920px;
+    height: 2248px;
+    background-color: #F6F6F6;
+    font-family: Noto Sans CJK JP;
+}
+
+.container {
+    width: 1200px;
+    height: 979px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+    position: relative;
+}
+
+.productDetail_img {
+    width: 500px;
+    height: 500px;
+    background: #64fefe;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.sub_Container {
+    width: 600px;
+    height: 979px;
+    background-color: #fff;
+    margin-left: 600px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.productDetail_category {
+    color: #8E8E8E;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.productDeatail_name {
+    color: #343434;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-left: 40px;
+}
+
+.productDetail_price {
+    color: #343434;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-left: 40px;
+}
+
+.productDetail_stock {
+    width: 154px;
+    height: 30px;
+    border-radius: 4px;
+    background: #D0C0C0;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center; /* 水平方向に中央揃え */
+    align-items: center; /* 垂直方向に中央揃え */
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.form_name {
+    color: #8E8E8E;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.form_quantity {
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    background: #FFF;
+    margin-top: 4px;
+    margin-left: 40px;
+}
+
+.OntheCart {
+    width: 500px;
+    height: 60px;
+    border-radius: 4px;
+    background: #DB553E;
+    margin-top: 20px;
+    margin-left: 40px;
+
+    text-align: center;
+    display: flex;
+    justify-content: center; /* 水平方向に中央揃え */
+    align-items: center; /* 垂直方向に中央揃え */
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+    position: relative; /* 相対位置指定 */
+}
+
+.cart_sentence {
+    margin-left: 12px;
+}
+
+.OntheCart::after {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 1px;
+    bottom: -20px; /* 要素の下方に下線を配置 */
+    background-color: #CDCDCD; /* 下線の色 */
+}
+
+.productDetail_description {
+    width: 500px;
+    color: #343434;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 40px;
+}

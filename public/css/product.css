@@ -1,0 +1,105 @@
+body {
+    width: 1920px;
+    height: 2248px;
+    background-color: #FFF;
+    font-family: Noto Sans CJK JP;
+}
+
+.container {
+    width: 1520px;
+    height: 1898px;
+    background-color: #F6F6F6;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.sub_container {
+    width: 310px;
+    height: 566px;
+    border-radius: 6px;
+    background: #fff;
+    margin: 20px 35px 20px 35px;
+}
+
+.product_img {
+    width: 230px;
+    height: 230px;
+    background: #64fefe;
+    margin: 25px 40px;
+}
+
+.product_category {
+    color: #8E8E8E;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.product_name {
+    color: #343434;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.product_price {
+    color: #343434;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.product_stock {
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    background: #D0C0C0;
+    margin-top: 5px;
+    margin-left: 40px;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center; /* 水平方向に中央揃え */
+    align-items: center; /* 垂直方向に中央揃え */
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+
+    position: relative; /* 相対位置指定 */
+}
+
+.product_stock::after {
+    content: '';
+    position: absolute;
+    bottom: -20px; /* 要素の下方に下線を配置 */
+    width: 230px;
+    height: 1px;
+    background-color: #CDCDCD; /* 下線の色 */
+    margin-left: 128px;
+}
+
+.product_description {
+    width: 230px;
+    color: #343434;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 40px 40px 40px 40px;
+}
+
+.product_button {
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    background: #D0C0C0;
+    margin-top: -30px;
+    margin-left: 170px;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center; /* 水平方向に中央揃え */
+    align-items: center; /* 垂直方向に中央揃え */
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+}
